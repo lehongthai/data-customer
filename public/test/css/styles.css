@@ -1,0 +1,1777 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&amp;subset=vietnamese");
+@import url("https://fonts.googleapis.com/css?family=Judson:400,400i,700&amp;subset=vietnamese");
+/* line 24, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+body {
+  font-family: "Georgia";
+  line-height: normal;
+  font-size: 14px;
+  color: #605C50;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 31, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+a, a:hover, a:focus {
+  text-decoration: none;
+  color: #605C50;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+/* line 41, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+a:hover, a:focus {
+  color: #C8A545;
+  background: none;
+  background-color: transparent;
+  outline: none; }
+
+/* line 47, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+h1, h2, h3, h4, h5 {
+  margin: 0; }
+
+/* line 50, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+input {
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 53, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+input:focus {
+  outline: none; }
+
+/* line 56, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+input::-webkit-input-placeholder {
+  color: #ddd; }
+
+/* line 59, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ddd; }
+
+/* line 62, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+input:-ms-input-placeholder {
+  color: #ddd; }
+
+/* line 65, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+/* line 70, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+img {
+  max-width: 100%; }
+
+/* line 73, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: transparent;
+  outline: none; }
+
+/* line 83, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.flickity-page-dots {
+  display: none; }
+
+/* line 86, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+/* line 93, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.ori-image {
+  position: relative;
+  width: 100%;
+  display: block; }
+  /* line 97, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+  .ori-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+/* line 106, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.title {
+  font-family: "Judson";
+  font-size: 34px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 5px; }
+
+/* line 113, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.subtitle {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 18px;
+  color: #666666;
+  text-transform: uppercase;
+  line-height: 1.4; }
+
+/* line 121, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.des {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+/* line 127, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.btn1 {
+  font-family: "Lato";
+  font-weight: 400;
+  color: #1d1d1d;
+  border: 1px solid #000;
+  font-size: 14px;
+  padding: 15px 25px;
+  text-align: center;
+  text-transform: uppercase; }
+  /* line 136, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+  .btn1:hover {
+    border-color: #ec8987; }
+
+/* line 140, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.btn2 {
+  background: #ec8987;
+  color: #fff;
+  border: 1px solid #ec8987; }
+  /* line 144, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+  .btn2:hover {
+    background: transparent;
+    color: #ec8987; }
+
+/* line 149, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.ori-checkbox {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: block; }
+  /* line 157, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+  .ori-checkbox input {
+    display: none; }
+  /* line 160, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+  .ori-checkbox .icon {
+    border-radius: 50%;
+    border: 2px solid #ebebeb;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    padding: 3px;
+    vertical-align: middle;
+    margin-right: 5px; }
+    /* line 169, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+    .ori-checkbox .icon span {
+      border-radius: 50%;
+      width: 16px;
+      height: 16px;
+      display: block;
+      background: transparent; }
+  /* line 177, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+  .ori-checkbox .info {
+    vertical-align: middle; }
+  /* line 180, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+  .ori-checkbox input:checked + .icon span {
+    background: #e8a9a0; }
+
+/* line 184, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.ori-input {
+  background: #fff;
+  font-size: 15px;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  width: 100%; }
+
+/* line 194, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.nice-select {
+  padding: 10px 25px;
+  height: 61px;
+  border: 0;
+  border-radius: 0;
+  position: relative; }
+  /* line 200, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+  .nice-select ul.list {
+    width: 100%;
+    border-radius: 0; }
+  /* line 204, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+  .nice-select:after, .nice-select.open:after {
+    border: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    content: url("../images/down.png");
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    right: 30px;
+    margin-top: 3px; }
+
+/* line 217, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.container {
+  max-width: 960px;
+  padding-left: 10px;
+  padding-right: 10px; }
+  @media (max-width: 767px) {
+    /* line 217, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+    .container {
+      padding-right: 15px;
+      padding-left: 15px; } }
+
+/* line 230, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+  margin-left: 0;
+  margin-right: 0; }
+
+/* line 234, F:/Mega/Work/Project/www/maestro/public/frontend/css/_reset.scss */
+.fixed-overlay {
+  background: #fff;
+  z-index: 99;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+/* line 2, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+header .navbar {
+  margin-bottom: 15px; }
+
+/* line 5, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+header .navbar-header {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 25px 0 20px 0;
+  position: relative;
+  z-index: 3;
+  /* Animation */ }
+  /* line 13, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+  header .navbar-header .btn-nav {
+    display: none; }
+    /* line 15, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+    header .navbar-header .btn-nav .btn-nav-lable {
+      display: block;
+      position: absolute;
+      z-index: 3;
+      top: 0;
+      width: 48px;
+      height: 48px;
+      cursor: pointer;
+      -webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+      transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+      transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+      transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+      -webkit-tap-highlight-color: transparent; }
+      /* line 28, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-header .btn-nav .btn-nav-lable:hover, header .navbar-header .btn-nav .btn-nav-lable:focus, header .navbar-header .btn-nav .btn-nav-lable:active {
+        opacity: 0.65; }
+      /* line 31, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-header .btn-nav .btn-nav-lable .one {
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        width: 48px;
+        height: 48px;
+        -webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+        transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1); }
+      /* line 41, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-header .btn-nav .btn-nav-lable .onetop {
+        -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+        transition: -webkit-transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+        transition: transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+        transition: transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        z-index: 4; }
+      /* line 51, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-header .btn-nav .btn-nav-lable .onebot {
+        -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+        transition: -webkit-transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+        transition: transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+        transition: transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0); }
+      /* line 60, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-header .btn-nav .btn-nav-lable .two {
+        display: block;
+        width: 17px;
+        height: 1px;
+        background: #352B0F;
+        position: absolute;
+        left: 16px;
+        z-index: 1;
+        -webkit-transition: -webkit-transform 0.2s;
+        transition: -webkit-transform 0.2s;
+        transition: transform 0.2s;
+        transition: transform 0.2s, -webkit-transform 0.2s; }
+      /* line 73, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-header .btn-nav .btn-nav-lable .twotop {
+        top: 23px;
+        -webkit-transition: -webkit-transform 0.2s 0.2s;
+        transition: -webkit-transform 0.2s 0.2s;
+        transition: transform 0.2s 0.2s;
+        transition: transform 0.2s 0.2s, -webkit-transform 0.2s 0.2s;
+        -webkit-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+        transform: translateY(-3px); }
+      /* line 83, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-header .btn-nav .btn-nav-lable .twobot {
+        bottom: 23px;
+        -webkit-transform: translateY(3px);
+        -ms-transform: translateY(3px);
+        transform: translateY(3px);
+        -webkit-transition: -webkit-transform 0.2s 0.2s;
+        transition: -webkit-transform 0.2s 0.2s;
+        transition: transform 0.2s 0.2s;
+        transition: transform 0.2s 0.2s, -webkit-transform 0.2s 0.2s; }
+
+/* line 102, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+header #btn-nav-input:checked ~ .navbar-header label .onetop {
+  -webkit-transition: -webkit-transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  transition: -webkit-transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  transition: transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  transition: transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/* line 111, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+header #btn-nav-input:checked ~ .navbar-header label .twotop {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s; }
+
+/* line 120, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+header #btn-nav-input:checked ~ .navbar-header label .onebot {
+  -webkit-transition: -webkit-transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  transition: -webkit-transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  transition: transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  transition: transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+/* line 129, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+header #btn-nav-input:checked ~ .navbar-header label .twobot {
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0); }
+
+/* line 140, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+header .navbar-collapse {
+  text-align: center;
+  width: 100%;
+  float: none;
+  padding-right: 0;
+  padding-left: 0; }
+  /* line 146, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+  header .navbar-collapse ul {
+    width: 100%;
+    float: none;
+    display: table; }
+    /* line 150, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+    header .navbar-collapse ul li {
+      float: none;
+      width: 18%;
+      display: table-cell;
+      border-right: 1px solid #D1CFC7;
+      border-bottom: 1px solid #D1CFC7;
+      padding: 12px 15px; }
+      /* line 157, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-collapse ul li:nth-child(3) {
+        width: 30%; }
+        @media (max-width: 767px) {
+          /* line 157, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+          header .navbar-collapse ul li:nth-child(3) {
+            width: auto; } }
+      @media (max-width: 767px) {
+        /* line 150, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+        header .navbar-collapse ul li {
+          width: auto; } }
+      /* line 166, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-collapse ul li a {
+        font-family: "Georgia";
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.16em;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to right, #C8A545 100%, #352B0F 50%), linear-gradient(to right, rgba(0, 128, 0, 0) 50%, rgba(144, 238, 144, 0) 50%);
+        background-position: 100% top, 100% top;
+        -webkit-background-clip: text, border-box; }
+      /* line 183, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-collapse ul li:last-child {
+        border-right: 0; }
+      /* line 186, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-collapse ul li:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        right: 0;
+        bottom: -0.5px;
+        background: transparent;
+        height: 3px;
+        transition: all 0.4s ease; }
+      /* line 206, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-collapse ul li.active a, header .navbar-collapse ul li:hover a, header .navbar-collapse ul li:focus a {
+        color: #C8A545;
+        background-position: 0% top, 0% top; }
+      /* line 211, F:/Mega/Work/Project/www/maestro/public/frontend/css/_header.scss */
+      header .navbar-collapse ul li.active:after, header .navbar-collapse ul li:hover:after, header .navbar-collapse ul li:focus:after {
+        right: 0;
+        background: #C8A545; }
+
+/* line 1, F:/Mega/Work/Project/www/maestro/public/frontend/css/_footer.scss */
+footer {
+  border-top: 1px solid #D4D4D4;
+  padding: 20px 0;
+  color: #605C50;
+  font-size: 12px;
+  letter-spacing: 0.128em;
+  line-height: 14px; }
+  /* line 8, F:/Mega/Work/Project/www/maestro/public/frontend/css/_footer.scss */
+  footer p {
+    margin-bottom: 0; }
+  /* line 12, F:/Mega/Work/Project/www/maestro/public/frontend/css/_footer.scss */
+  footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+    border-right: 1px solid #605C50; }
+    /* line 16, F:/Mega/Work/Project/www/maestro/public/frontend/css/_footer.scss */
+    footer ul li:last-child {
+      border-right: 0;
+      padding-right: 0; }
+
+/* line 8, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+.border-right {
+  border-right: 1px solid #E4E4E4; }
+  @media (max-width: 767px) {
+    /* line 8, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .border-right {
+      border: 0; } }
+
+/* line 15, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+.wow {
+  visibility: hidden; }
+
+@media (max-width: 767px) {
+  /* line 19, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .text-center-xs {
+    text-align: center !important; } }
+
+/* line 26, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+.home-background {
+  position: relative;
+  margin-bottom: 60px; }
+  @media (max-width: 767px) {
+    /* line 26, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .home-background {
+      margin-bottom: 60px; } }
+  /* line 32, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .home-background .comingsoon-text {
+    max-width: 660px;
+    height: auto;
+    bottom: auto;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+    position: absolute; }
+    @media (max-width: 991px) {
+      /* line 32, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .home-background .comingsoon-text {
+        top: 45%;
+        transform: translate(-50%, -55%);
+        width: 90%; } }
+    @media (max-width: 767px) {
+      /* line 32, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .home-background .comingsoon-text {
+        top: 50%;
+        transform: translate(-50%, -50%); } }
+    /* line 50, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .home-background .comingsoon-text .top-title {
+      font-family: "Judson", sans-serif;
+      font-size: 75px;
+      letter-spacing: 0.05em;
+      line-height: 73px;
+      text-shadow: 0 0 18px #262421;
+      color: #ffffff; }
+      @media (max-width: 1199px) {
+        /* line 50, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .home-background .comingsoon-text .top-title {
+          font-size: 55px;
+          line-height: 53px; } }
+      @media (max-width: 991px) {
+        /* line 50, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .home-background .comingsoon-text .top-title {
+          font-size: 36px;
+          line-height: 40px; } }
+      @media (max-width: 767px) {
+        /* line 50, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .home-background .comingsoon-text .top-title {
+          font-size: 28px;
+          line-height: 28px; } }
+    /* line 70, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .home-background .comingsoon-text .separate {
+      width: 150px;
+      color: #fff; }
+      @media (max-width: 767px) {
+        /* line 70, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .home-background .comingsoon-text .separate {
+          margin-top: 5px;
+          margin-bottom: 5px; } }
+    /* line 78, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .home-background .comingsoon-text .bottom-text {
+      font-family: "Georgia", sans-serif;
+      font-size: 22px;
+      color: #fff;
+      line-height: 33px;
+      letter-spacing: 0.058em; }
+      @media (max-width: 1199px) {
+        /* line 78, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .home-background .comingsoon-text .bottom-text {
+          font-size: 16px;
+          line-height: 22px; } }
+      @media (max-width: 991px) {
+        /* line 78, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .home-background .comingsoon-text .bottom-text {
+          font-size: 18px;
+          line-height: 25px; } }
+      @media (max-width: 767px) {
+        /* line 78, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .home-background .comingsoon-text .bottom-text {
+          font-size: 14px;
+          line-height: 22px; } }
+  /* line 98, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .home-background .overlay {
+    height: auto;
+    bottom: -35px;
+    top: auto;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%); }
+    @media (max-width: 767px) {
+      /* line 98, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .home-background .overlay {
+        bottom: -30px; } }
+    /* line 108, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .home-background .overlay > div {
+      box-shadow: 0 -10px 11px 0px rgba(0, 0, 0, 0.27);
+      background-color: white;
+      padding: 15px 45px 0;
+      max-width: 650px;
+      margin: auto; }
+    /* line 115, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .home-background .overlay h1 {
+      font-family: "Judson", sans-serif;
+      font-size: 18px;
+      color: #352B0F;
+      font-weight: bold;
+      line-height: 27px;
+      letter-spacing: 0.02em;
+      padding-bottom: 5px; }
+    /* line 124, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .home-background .overlay h3 {
+      color: #8D8D8D;
+      font-family: "GeorgiaItalic";
+      font-size: 14px;
+      letter-spacing: 0.243em;
+      line-height: 20px; }
+  /* line 132, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .home-background .img-banner {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    object-position: top; }
+    @media (max-width: 767px) {
+      /* line 132, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .home-background .img-banner {
+        min-height: 300px; } }
+
+/* line 154, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+.contact-page {
+  padding-top: 15px;
+  padding-bottom: 40px; }
+  @media (max-width: 767px) {
+    /* line 154, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page {
+      padding-top: 0; } }
+  /* line 161, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .contact-page .left-title,
+  .contact-page .right-title {
+    padding-bottom: 20px; }
+    /* line 163, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .left-title h3,
+    .contact-page .right-title h3 {
+      font-size: 20px;
+      color: #352B0F;
+      line-height: 25px;
+      letter-spacing: 0.71px;
+      font-family: "Judson", sans-serif;
+      font-weight: bold;
+      overflow: hidden; }
+      /* line 171, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .contact-page .left-title h3:after,
+      .contact-page .right-title h3:after {
+        content: "";
+        display: inline-block;
+        height: 0.4em;
+        vertical-align: bottom;
+        width: 100%;
+        margin-right: -100%;
+        margin-left: 17px;
+        border-top: 1px solid #D1CFC7; }
+  /* line 193, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .contact-page .contact-description {
+    font-family: "Georgia", sans-serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #5F5F5F;
+    line-height: 26px; }
+  /* line 200, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .contact-page .contact-left {
+    max-width: 300px; }
+    @media (max-width: 767px) {
+      /* line 200, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .contact-page .contact-left {
+        max-width: 470px;
+        margin: auto;
+        padding-bottom: 30px; } }
+  @media (max-width: 767px) {
+    /* line 208, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .contact-right {
+      padding-top: 20px;
+      max-width: 470px;
+      margin: auto; } }
+  /* line 215, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .contact-page .map-holder {
+    height: 205px;
+    padding-bottom: 15px; }
+    /* line 218, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .map-holder #map {
+      width: 100%;
+      height: 100%;
+      background-color: grey; }
+  /* line 224, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .contact-page .contact-details {
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #E5E5E5; }
+    /* line 228, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .contact-details #contact-email {
+      color: #D0AB50; }
+    /* line 231, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .contact-details p {
+      line-height: 34px;
+      font-family: "Georgia", sans-serif;
+      font-size: 14px;
+      color: #5F5F5F;
+      padding-bottom: 15px;
+      margin: 0; }
+      /* line 238, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .contact-page .contact-details p:last-child {
+        padding-bottom: 0; }
+  /* line 243, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .contact-page .icon-list {
+    margin: 0 -15px 0 -13px; }
+    /* line 245, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .icon-list ul {
+      width: 100%;
+      display: table; }
+      /* line 248, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .contact-page .icon-list ul li {
+        display: table-cell; }
+        /* line 250, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .contact-page .icon-list ul li i {
+          font-size: 30px;
+          color: #D0CEC6;
+          transition: all 0.3s; }
+          /* line 255, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+          .contact-page .icon-list ul li i:hover,
+          .contact-page .icon-list ul li i:focus {
+            color: #D0AB50; }
+          /* line 258, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+          .contact-page .icon-list ul li i.fa-skype {
+            padding-left: 5px; }
+  /* line 265, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .contact-page .form-container {
+    padding-top: 50px; }
+    @media (max-width: 767px) {
+      /* line 265, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .contact-page .form-container {
+        padding-top: 30px; } }
+    /* line 273, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .form-container #form-block1,
+    .contact-page .form-container #form-block2,
+    .contact-page .form-container #form-block3,
+    .contact-page .form-container #form-block4 {
+      position: relative;
+      padding-bottom: 40px; }
+      /* line 279, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .contact-page .form-container #form-block1 .area-field:focus ~ .floating-label,
+      .contact-page .form-container #form-block1 .area-field:not(:focus):valid ~ .floating-label,
+      .contact-page .form-container #form-block1 input:focus ~ .floating-label,
+      .contact-page .form-container #form-block1 input:not(:focus):valid ~ .floating-label,
+      .contact-page .form-container #form-block2 .area-field:focus ~ .floating-label,
+      .contact-page .form-container #form-block2 .area-field:not(:focus):valid ~ .floating-label,
+      .contact-page .form-container #form-block2 input:focus ~ .floating-label,
+      .contact-page .form-container #form-block2 input:not(:focus):valid ~ .floating-label,
+      .contact-page .form-container #form-block3 .area-field:focus ~ .floating-label,
+      .contact-page .form-container #form-block3 .area-field:not(:focus):valid ~ .floating-label,
+      .contact-page .form-container #form-block3 input:focus ~ .floating-label,
+      .contact-page .form-container #form-block3 input:not(:focus):valid ~ .floating-label,
+      .contact-page .form-container #form-block4 .area-field:focus ~ .floating-label,
+      .contact-page .form-container #form-block4 .area-field:not(:focus):valid ~ .floating-label,
+      .contact-page .form-container #form-block4 input:focus ~ .floating-label,
+      .contact-page .form-container #form-block4 input:not(:focus):valid ~ .floating-label {
+        top: -10px;
+        left: 0;
+        font-size: 13px;
+        opacity: 1;
+        color: #D0AB50; }
+      /* line 286, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .contact-page .form-container #form-block1 .glyphicon-ok,
+      .contact-page .form-container #form-block2 .glyphicon-ok,
+      .contact-page .form-container #form-block3 .glyphicon-ok,
+      .contact-page .form-container #form-block4 .glyphicon-ok {
+        color: #D0AB50;
+        font-size: 12px; }
+      /* line 290, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .contact-page .form-container #form-block1 .glyphicon-remove,
+      .contact-page .form-container #form-block2 .glyphicon-remove,
+      .contact-page .form-container #form-block3 .glyphicon-remove,
+      .contact-page .form-container #form-block4 .glyphicon-remove {
+        color: #DC3A26;
+        font-size: 12px; }
+      /* line 295, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .contact-page .form-container #form-block1 .inputText:valid,
+      .contact-page .form-container #form-block1 textarea:valid,
+      .contact-page .form-container #form-block2 .inputText:valid,
+      .contact-page .form-container #form-block2 textarea:valid,
+      .contact-page .form-container #form-block3 .inputText:valid,
+      .contact-page .form-container #form-block3 textarea:valid,
+      .contact-page .form-container #form-block4 .inputText:valid,
+      .contact-page .form-container #form-block4 textarea:valid {
+        border-bottom-color: #D0AB50; }
+      /* line 298, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .contact-page .form-container #form-block1 .inputText,
+      .contact-page .form-container #form-block2 .inputText,
+      .contact-page .form-container #form-block3 .inputText,
+      .contact-page .form-container #form-block4 .inputText {
+        font-family: "Georgia", sans-serif;
+        width: 100%;
+        font-size: 14px;
+        height: 35px;
+        outline: none;
+        line-height: 16px;
+        color: #636363;
+        border: 0;
+        border-bottom: 1px solid #DEDEDE;
+        box-shadow: none;
+        transition: 0.2s ease all;
+        padding: 0 30px 0 0;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0; }
+        @media (max-width: 991px) {
+          /* line 298, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+          .contact-page .form-container #form-block1 .inputText,
+          .contact-page .form-container #form-block2 .inputText,
+          .contact-page .form-container #form-block3 .inputText,
+          .contact-page .form-container #form-block4 .inputText {
+            font-size: 16px; } }
+      /* line 317, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .contact-page .form-container #form-block1 .floating-label,
+      .contact-page .form-container #form-block2 .floating-label,
+      .contact-page .form-container #form-block3 .floating-label,
+      .contact-page .form-container #form-block4 .floating-label {
+        font-family: "Georgia", sans-serif;
+        position: absolute;
+        pointer-events: none;
+        left: 0;
+        top: 10px;
+        color: #BCB9AE;
+        font-size: 13px;
+        line-height: 15px;
+        transition: 0.3s ease all; }
+    /* line 329, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .form-container #form-block3 {
+      padding-bottom: 45px; }
+    /* line 333, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .form-container #form-block4 .floating-label {
+      top: 40px; }
+    /* line 337, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .form-container #form-block4 .area-field:focus ~ .floating-label,
+    .contact-page .form-container #form-block4 .area-field:not(:focus):valid ~ .floating-label {
+      top: -17px; }
+    /* line 341, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .form-container .area-field {
+      padding: 0 30px 0 0;
+      color: #636363;
+      font-family: "Georgia", sans-serif;
+      width: 100%;
+      font-size: 14px;
+      outline: none;
+      line-height: 20px;
+      border: 0;
+      border-bottom: 1px solid #DEDEDE;
+      box-shadow: none;
+      resize: none;
+      -webkit-appearance: none;
+      -webkit-border-radius: 0; }
+      @media (max-width: 991px) {
+        /* line 341, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .contact-page .form-container .area-field {
+          font-size: 16px; } }
+    /* line 359, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .form-container .form-control-feedback {
+      display: none; }
+  /* line 363, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .contact-page .send-button {
+    font-size: 20px;
+    font-family: "Georgia", sans-serif;
+    color: #BCB9AE;
+    background: transparent;
+    border: 0;
+    transition: all 0.3s;
+    outline: none; }
+    /* line 371, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .contact-page .send-button:hover {
+      color: #D0AB50; }
+
+/* line 378, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+.about-page {
+  padding-top: 10px; }
+  @media (max-width: 767px) {
+    /* line 378, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page {
+      padding-top: 0; } }
+  /* line 383, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .about-page .top-bg {
+    margin-bottom: 80px;
+    position: relative;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    /* line 392, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .top-bg .text-top {
+      font-family: "GeorgiaBoldItalic", sans-serif;
+      color: #FFFFFF;
+      font-size: 16px;
+      letter-spacing: 0.1em;
+      line-height: 26px;
+      text-shadow: 0 0 9px rgba(0, 0, 0, 0.65);
+      padding: 34px 60px 53px; }
+      /* line 400, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .about-page .top-bg .text-top p {
+        margin-bottom: 0; }
+    /* line 404, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .top-bg .tab-selection-container {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -30px; }
+    /* line 410, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .top-bg .tab-line {
+      border-color: #D1CFC7;
+      margin: 0 auto;
+      width: 92%; }
+    /* line 415, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .top-bg .tab-selection {
+      margin: 0;
+      display: table;
+      width: 590px;
+      padding: 17px 15px 13px;
+      background-color: white; }
+      @media (max-width: 767px) {
+        /* line 415, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .about-page .top-bg .tab-selection {
+          width: 310px;
+          padding: 17px 10px 13px; } }
+      /* line 425, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .about-page .top-bg .tab-selection li {
+        display: inline-block;
+        position: relative;
+        font-size: 14px;
+        width: 50%;
+        font-family: "Georgia", sans-serif;
+        line-height: 22px;
+        display: table-cell;
+        border-right: 1px solid #D1CFC7;
+        letter-spacing: 0.05em;
+        cursor: pointer; }
+        /* line 436, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .about-page .top-bg .tab-selection li:last-child {
+          border-right: none; }
+        /* line 439, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .about-page .top-bg .tab-selection li:after {
+          display: block;
+          content: '';
+          border-bottom: solid 3px #C8A545;
+          transform: scaleX(0);
+          transition: transform 250ms ease-in-out;
+          position: absolute;
+          bottom: -14px;
+          left: 20%;
+          width: 60%; }
+        /* line 450, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .about-page .top-bg .tab-selection li:hover:after {
+          transform: scaleX(1); }
+      /* line 455, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .about-page .top-bg .tab-selection .active:after {
+        transform: scalex(1); }
+  /* line 461, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .about-page .investment-bg {
+    margin-bottom: 55px; }
+  /* line 464, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .about-page .about-content {
+    max-width: 765px;
+    margin: auto;
+    padding-bottom: 65px; }
+    /* line 468, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .about-content .about-block-info {
+      padding-bottom: 55px; }
+      /* line 470, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .about-page .about-content .about-block-info ul {
+        display: block;
+        margin: auto;
+        max-width: 470px;
+        text-align: left; }
+        /* line 475, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .about-page .about-content .about-block-info ul li {
+          padding-left: 16px; }
+          /* line 477, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+          .about-page .about-content .about-block-info ul li:before {
+            content: '\2022';
+            padding-right: 8px; }
+    /* line 484, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .about-content .about-title {
+      padding-bottom: 17px;
+      font-family: "Judson", sans-serif;
+      font-size: 20px;
+      color: #352B0F;
+      font-weight: bold;
+      line-height: 25px;
+      letter-spacing: 0.056em; }
+    /* line 493, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .about-content .about-details {
+      font-family: "Georgia", sans-serif;
+      font-size: 14px;
+      color: #5F5F5F;
+      line-height: 26px; }
+  /* line 502, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .about-page .team-content .row-team-content .col-team-left {
+    padding-left: 85px; }
+    /* line 504, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .team-content .row-team-content .col-team-left .name-text {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      font-family: "Judson", sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+      line-height: 26px;
+      color: #352B0F;
+      text-align: right;
+      max-width: 160px; }
+  /* line 517, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .about-page .team-content .row-team-content .col-team-right {
+    padding-right: 85px; }
+    /* line 519, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .team-content .row-team-content .col-team-right .name-text {
+      position: absolute;
+      font-weight: bold;
+      left: 20px;
+      bottom: 20px;
+      font-family: "Judson", sans-serif;
+      font-size: 28px;
+      line-height: 26px;
+      color: #352B0F;
+      text-align: left;
+      max-width: 140px; }
+  @media (max-width: 991px) and (min-width: 768px) {
+    /* line 533, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .team-content .row-team-content .name-text {
+      font-size: 24px !important;
+      max-width: 120px !important; } }
+  @media (max-width: 767px) and (min-width: 541) {
+    /* line 539, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .team-content .row-team-content .name-text {
+      max-width: 140px !important; } }
+  @media (max-width: 540px) {
+    /* line 544, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .team-content .row-team-content .name-text {
+      font-size: 20px !important;
+      max-width: 100px !important; } }
+  @media (max-width: 767px) {
+    /* line 551, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .team-content .row-team-content .col-team-right,
+    .about-page .team-content .row-team-content .col-team-left {
+      padding-left: 50px;
+      padding-right: 50px; } }
+  @media (max-width: 540px) {
+    /* line 558, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .team-content .row-team-content .col-team-right,
+    .about-page .team-content .row-team-content .col-team-left {
+      padding-left: 25px;
+      padding-right: 25px; } }
+  /* line 564, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .about-page .team-content h5 {
+    font-family: "Judson";
+    font-size: 20px;
+    color: #352B0F;
+    line-height: 25px;
+    letter-spacing: 0.056em;
+    overflow: hidden;
+    font-weight: bold;
+    padding-bottom: 25px; }
+    /* line 573, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .team-content h5:after {
+      content: "";
+      display: inline-block;
+      height: 0.6em;
+      vertical-align: bottom;
+      width: 100%;
+      margin-right: -100%;
+      margin-left: 20px;
+      border-top: 1px solid #D1CFC7; }
+    /* line 583, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .team-content h5:before {
+      content: "";
+      display: inline-block;
+      height: 0.6em;
+      vertical-align: bottom;
+      width: 100%;
+      margin-left: -100%;
+      margin-right: 20px;
+      border-top: 1px solid #D1CFC7; }
+  /* line 594, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .about-page .team-content .block-holder {
+    cursor: pointer;
+    padding-bottom: 57%;
+    width: 100%;
+    height: 0;
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid #D1CFC7; }
+    /* line 611, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .team-content .block-holder img {
+      transition: all 0.35s ease;
+      -webkit-transition: all 0.35s ease;
+      -moz-transition: all 0.35s ease;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center; }
+  @media (max-width: 767px) {
+    /* line 633, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .about-page .team-content .operation-team {
+      padding-top: 30px; } }
+  /* line 639, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .about-page .tab-content {
+    display: none; }
+  /* line 642, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .about-page .tab-content.current {
+    display: inherit; }
+
+/* line 648, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+.modal.and.carousel {
+  position: fixed; }
+
+/* line 652, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#our-team-modal.fade:not(.in) .modal-dialog {
+  -webkit-transform: translate3d(25%, 0, 0);
+  transform: translate3d(25%, 0, 0); }
+
+@media (min-width: 768px) {
+  /* line 657, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #our-team-modal {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+/* line 662, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#our-team-modal .modal-header {
+  border-bottom: none;
+  padding: 30px 30px 15px 15px; }
+
+/* line 666, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#our-team-modal .modal-content {
+  border-color: transparent;
+  border-radius: 0;
+  -webkit-box-shadow: -14px 0 30px #93794A;
+  box-shadow: -14px 0 30px #93794A; }
+
+@media (min-width: 768px) {
+  /* line 672, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #our-team-modal .modal-dialog {
+    max-width: 940px;
+    width: 100%;
+    margin: 80px auto; } }
+
+/* line 679, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#our-team-modal .modal-body {
+  padding: 5px 90px 10px 90px; }
+  @media (max-width: 767px) {
+    /* line 679, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-body {
+      padding: 5px 15px 10px 15px; } }
+  @media (max-width: 767px) {
+    /* line 684, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-body .modal-img-holder {
+      text-align: center;
+      padding-bottom: 20px; } }
+  /* line 690, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #our-team-modal .modal-body h3 {
+    color: #C7A44D;
+    font-size: 32px;
+    font-family: "Judson", sans-serif;
+    line-height: 34px;
+    padding-bottom: 5px;
+    font-weight: bold; }
+    @media (max-width: 767px) {
+      /* line 690, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      #our-team-modal .modal-body h3 {
+        text-align: center; } }
+  /* line 701, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #our-team-modal .modal-body .title-descrip {
+    font-family: "Georgia", sans-serif;
+    color: #352B0F;
+    font-size: 14px;
+    line-height: 16px;
+    overflow: hidden;
+    padding-bottom: 20px; }
+    /* line 708, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-body .title-descrip:after {
+      content: "";
+      display: inline-block;
+      height: 0.3em;
+      vertical-align: bottom;
+      width: 100%;
+      margin-right: -100%;
+      margin-left: 15px;
+      border-top: 1px solid #D1CFC7; }
+    @media (max-width: 767px) {
+      /* line 701, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      #our-team-modal .modal-body .title-descrip {
+        text-align: center;
+        margin: auto;
+        max-width: 350px; }
+        /* line 722, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        #our-team-modal .modal-body .title-descrip:before {
+          content: "";
+          display: inline-block;
+          height: 0.3em;
+          vertical-align: bottom;
+          width: 100%;
+          margin-left: -100%;
+          margin-right: 17px;
+          border-top: 1px solid #D1CFC7; } }
+  /* line 734, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #our-team-modal .modal-body .modal-details-text {
+    font-family: "Georgia", sans-serif;
+    font-size: 13px;
+    color: #605C50;
+    line-height: 22px;
+    padding-bottom: 25px;
+    text-align: justify; }
+  /* line 742, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #our-team-modal .modal-body .modal-signature-param {
+    max-width: 300px;
+    float: right;
+    text-align: right;
+    font-family: "Georgia", sans-serif;
+    font-size: 16px;
+    color: #352B0F;
+    line-height: 24px; }
+
+/* line 752, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#our-team-modal .modal-footer {
+  border-top: none;
+  padding: 10px 35px 15px; }
+  @media (max-width: 767px) {
+    /* line 752, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer {
+      padding: 10px 15px 15px; } }
+  /* line 759, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #our-team-modal .modal-footer .left-arrow,
+  #our-team-modal .modal-footer .right-arrow {
+    max-width: 175px;
+    width: 100%;
+    text-align: center; }
+    @media (max-width: 767px) {
+      /* line 759, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      #our-team-modal .modal-footer .left-arrow,
+      #our-team-modal .modal-footer .right-arrow {
+        max-width: 130px; } }
+    @media (max-width: 540px) {
+      /* line 759, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      #our-team-modal .modal-footer .left-arrow,
+      #our-team-modal .modal-footer .right-arrow {
+        max-width: 100px; } }
+    /* line 775, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .left-arrow:hover #left-next-button,
+    #our-team-modal .modal-footer .left-arrow:hover #right-next-button,
+    #our-team-modal .modal-footer .left-arrow:hover #arrow-next-button,
+    #our-team-modal .modal-footer .left-arrow:hover #left-prev-button,
+    #our-team-modal .modal-footer .left-arrow:hover #right-prev-button,
+    #our-team-modal .modal-footer .left-arrow:hover #arrow-prev-button,
+    #our-team-modal .modal-footer .right-arrow:hover #left-next-button,
+    #our-team-modal .modal-footer .right-arrow:hover #right-next-button,
+    #our-team-modal .modal-footer .right-arrow:hover #arrow-next-button,
+    #our-team-modal .modal-footer .right-arrow:hover #left-prev-button,
+    #our-team-modal .modal-footer .right-arrow:hover #right-prev-button,
+    #our-team-modal .modal-footer .right-arrow:hover #arrow-prev-button {
+      border-color: #C7A44D; }
+    /* line 778, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .left-arrow:hover #left-next-button,
+    #our-team-modal .modal-footer .right-arrow:hover #left-next-button {
+      left: 20%; }
+    /* line 781, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .left-arrow:hover #right-next-button,
+    #our-team-modal .modal-footer .right-arrow:hover #right-next-button {
+      left: 83%; }
+    /* line 784, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .left-arrow:hover #arrow-next-button,
+    #our-team-modal .modal-footer .right-arrow:hover #arrow-next-button {
+      height: 11px;
+      width: 11px;
+      top: -5px;
+      transform: rotate(-45deg) scale(1, 1); }
+    /* line 790, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .left-arrow:hover #left-prev-button,
+    #our-team-modal .modal-footer .right-arrow:hover #left-prev-button {
+      right: 83%; }
+    /* line 793, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .left-arrow:hover #right-prev-button,
+    #our-team-modal .modal-footer .right-arrow:hover #right-prev-button {
+      right: 20%; }
+    /* line 796, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .left-arrow:hover #arrow-prev-button,
+    #our-team-modal .modal-footer .right-arrow:hover #arrow-prev-button {
+      height: 11px;
+      width: 11px;
+      top: -5px;
+      transform: rotate(45deg) scale(1, 1); }
+    /* line 803, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .left-arrow:hover #next-name,
+    #our-team-modal .modal-footer .left-arrow:hover #prev-name,
+    #our-team-modal .modal-footer .right-arrow:hover #next-name,
+    #our-team-modal .modal-footer .right-arrow:hover #prev-name {
+      opacity: 1; }
+  /* line 809, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #our-team-modal .modal-footer #next-name,
+  #our-team-modal .modal-footer #prev-name {
+    font-size: 12px;
+    font-family: "Georgia", sans-serif;
+    color: #352B0F;
+    line-height: 1.6;
+    margin-top: 10px;
+    opacity: 0.7; }
+  /* line 817, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #our-team-modal .modal-footer .next-button {
+    position: relative;
+    margin-bottom: 10px; }
+    /* line 820, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .next-button #left-next-button {
+      transition: all 0.4s ease;
+      border-bottom: 1px solid #979797;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 30%; }
+    /* line 829, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .next-button #right-next-button {
+      transition: all 0.65s ease;
+      -webkit-transition-delay: 0.1s;
+      /* Safari */
+      transition-delay: 0.1s;
+      border-bottom: 1px solid #979797;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      left: 70%; }
+    /* line 841, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .next-button #arrow-next-button {
+      transition: all 0.6s ease-in-out;
+      -webkit-transition-delay: 0.1s;
+      /* Safari */
+      transition-delay: 0.1s;
+      border-bottom: 1px solid #979797;
+      border-right: 1px solid #979797;
+      display: block;
+      position: absolute;
+      right: 0;
+      transform: rotate(-45deg) scale(0, 0); }
+  /* line 854, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #our-team-modal .modal-footer .prev-button {
+    position: relative;
+    margin-bottom: 10px; }
+    /* line 857, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .prev-button #left-prev-button {
+      transition: all 0.4s ease;
+      border-bottom: 1px solid #979797;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 70%; }
+    /* line 866, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .prev-button #right-prev-button {
+      transition: all 0.65s ease;
+      -webkit-transition-delay: 0.1s;
+      /* Safari */
+      transition-delay: 0.1s;
+      border-bottom: 1px solid #979797;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      left: 30%; }
+    /* line 878, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #our-team-modal .modal-footer .prev-button #arrow-prev-button {
+      transition: all 0.6s ease-in-out;
+      -webkit-transition-delay: 0.1s;
+      /* Safari */
+      transition-delay: 0.1s;
+      border-bottom: 1px solid #979797;
+      border-left: 1px solid #979797;
+      display: block;
+      position: absolute;
+      left: 0;
+      transform: rotate(45deg) scale(0, 0); }
+
+/* line 892, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#our-team-modal .close {
+  opacity: 0.8; }
+  /* line 894, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #our-team-modal .close:hover {
+    opacity: 1; }
+
+/* line 901, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+.portfolio-page {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  @media (max-width: 767px) {
+    /* line 904, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .portfolio-page .sidebar-menu {
+      margin-bottom: 30px;
+      display: inline-block; } }
+  /* line 910, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .portfolio-page .sidebar-menu ul > li {
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 15px; }
+    /* line 914, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .portfolio-page .sidebar-menu ul > li:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      right: 0;
+      width: 0;
+      bottom: -2px;
+      background: #C7A44D;
+      height: 1px;
+      transition-property: width;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-out; }
+      @media (max-width: 767px) {
+        /* line 914, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .portfolio-page .sidebar-menu ul > li:after {
+          right: 50%; } }
+    /* line 930, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .portfolio-page .sidebar-menu ul > li a {
+      transition: all 0.3s ease;
+      font-family: "Georgia", sans-serif;
+      color: #3A3015;
+      font-size: 13px;
+      letter-spacing: 0.05em;
+      line-height: 15px;
+      color: #A5A5A5; }
+  /* line 941, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .portfolio-page .sidebar-menu ul > li.active a {
+    color: #3A3015; }
+  /* line 944, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .portfolio-page .sidebar-menu ul > li.active:after {
+    left: 0;
+    right: auto;
+    width: 100%; }
+  /* line 952, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  .portfolio-page .block-slide {
+    padding-left: 50px;
+    display: inline-block;
+    position: relative; }
+    /* line 956, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .portfolio-page .block-slide .row-img-holder {
+      margin-right: -10px;
+      margin-left: -10px; }
+      /* line 959, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .portfolio-page .block-slide .row-img-holder:first-child {
+        margin-top: -10px; }
+    /* line 963, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .portfolio-page .block-slide .portfo-img-holder {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      height: 220px;
+      width: 220px;
+      overflow: hidden;
+      margin: 10px;
+      transition: all 0.3s ease; }
+      /* line 973, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .portfolio-page .block-slide .portfo-img-holder:hover img {
+        opacity: 0.8; }
+      /* line 977, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .portfolio-page .block-slide .portfo-img-holder img {
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 100%; }
+      /* line 983, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      .portfolio-page .block-slide .portfo-img-holder .brand-name {
+        text-align: center;
+        font-size: 18px;
+        font-family: "GeorgiaBold", sans-serif;
+        color: white;
+        text-shadow: 0 2px 9px #000000;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        letter-spacing: 0.064em;
+        line-height: 21px;
+        width: 90%; }
+    /* line 998, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .portfolio-page .block-slide .title-block {
+      font-family: "Judson", sans-serif;
+      font-size: 32px;
+      color: #352B0F;
+      letter-spacing: 0.114em;
+      position: absolute;
+      -webkit-transform: rotate(-90deg);
+      -webkit-transform-origin: left top;
+      -moz-transform: rotate(-90deg);
+      -moz-transform-origin: left top;
+      -o-transform: rotate(-90deg);
+      -o-transform-origin: left top;
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      position: absolute;
+      bottom: -20px;
+      left: -40px; }
+      @media (max-width: 540px) {
+        /* line 998, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .portfolio-page .block-slide .title-block {
+          width: 150%; } }
+    /* line 1022, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    .portfolio-page .block-slide.carousel-cell {
+      width: 70%;
+      margin-right: 20px; }
+      @media (max-width: 991px) {
+        /* line 1022, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+        .portfolio-page .block-slide.carousel-cell {
+          width: 100%; } }
+
+/* line 1034, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#portfolio-main-slide .flickity-prev-next-button.previous {
+  left: -50px; }
+
+/* line 1037, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#portfolio-main-slide .flickity-prev-next-button.next {
+  right: -50px; }
+
+@media (max-width: 991px) {
+  /* line 1042, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-main-slide .flickity-prev-next-button.previous,
+  #portfolio-main-slide .flickity-prev-next-button.next {
+    display: none; } }
+
+/* line 1046, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#portfolio-main-slide .flickity-prev-next-button {
+  top: 49%;
+  -webkit-transform: translateY(-49%);
+  transform: translateY(-49%); }
+  /* line 1050, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-main-slide .flickity-prev-next-button .arrow {
+    transition: all 0.3s ease; }
+  /* line 1053, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-main-slide .flickity-prev-next-button svg {
+    width: 80%;
+    height: 80%; }
+  /* line 1058, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-main-slide .flickity-prev-next-button:hover .arrow {
+    fill: #C8A545; }
+
+@media (min-width: 768px) {
+  /* line 1066, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-modal {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+/* line 1071, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#portfolio-modal .close {
+  opacity: 0.8; }
+  /* line 1073, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-modal .close:hover {
+    opacity: 1; }
+
+/* line 1077, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#portfolio-modal .modal-header {
+  border-bottom: none;
+  padding: 30px 30px 15px 15px; }
+
+@media (min-width: 768px) {
+  /* line 1081, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-modal .modal-dialog {
+    max-width: 960px;
+    width: 100%;
+    margin: 80px auto; } }
+
+/* line 1088, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#portfolio-modal .modal-content {
+  border-radius: 0;
+  border-color: transparent;
+  -webkit-box-shadow: -14px 0 30px #93794A;
+  box-shadow: -14px 0 30px #93794A; }
+
+/* line 1094, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#portfolio-modal .modal-body {
+  padding: 5px 10px 10px 10px; }
+  @media (max-width: 767px) {
+    /* line 1094, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-body {
+      padding: 5px 15px 10px 15px; } }
+
+/* line 1100, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#portfolio-modal .modal-footer {
+  border-top: none;
+  padding: 10px 35px 15px; }
+  @media (max-width: 767px) {
+    /* line 1100, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer {
+      padding: 10px 15px 15px; } }
+  /* line 1107, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-modal .modal-footer .left-arrow,
+  #portfolio-modal .modal-footer .right-arrow {
+    max-width: 175px;
+    width: 100%;
+    text-align: center; }
+    @media (max-width: 767px) {
+      /* line 1107, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      #portfolio-modal .modal-footer .left-arrow,
+      #portfolio-modal .modal-footer .right-arrow {
+        max-width: 130px; } }
+    @media (max-width: 540px) {
+      /* line 1107, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      #portfolio-modal .modal-footer .left-arrow,
+      #portfolio-modal .modal-footer .right-arrow {
+        max-width: 100px; } }
+    /* line 1123, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .left-arrow:hover #left-next-button,
+    #portfolio-modal .modal-footer .left-arrow:hover #right-next-button,
+    #portfolio-modal .modal-footer .left-arrow:hover #arrow-next-button,
+    #portfolio-modal .modal-footer .left-arrow:hover #left-prev-button,
+    #portfolio-modal .modal-footer .left-arrow:hover #right-prev-button,
+    #portfolio-modal .modal-footer .left-arrow:hover #arrow-prev-button,
+    #portfolio-modal .modal-footer .right-arrow:hover #left-next-button,
+    #portfolio-modal .modal-footer .right-arrow:hover #right-next-button,
+    #portfolio-modal .modal-footer .right-arrow:hover #arrow-next-button,
+    #portfolio-modal .modal-footer .right-arrow:hover #left-prev-button,
+    #portfolio-modal .modal-footer .right-arrow:hover #right-prev-button,
+    #portfolio-modal .modal-footer .right-arrow:hover #arrow-prev-button {
+      border-color: #C7A44D; }
+    /* line 1126, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .left-arrow:hover #left-next-button,
+    #portfolio-modal .modal-footer .right-arrow:hover #left-next-button {
+      left: 20%; }
+    /* line 1129, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .left-arrow:hover #right-next-button,
+    #portfolio-modal .modal-footer .right-arrow:hover #right-next-button {
+      left: 83%; }
+    /* line 1132, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .left-arrow:hover #arrow-next-button,
+    #portfolio-modal .modal-footer .right-arrow:hover #arrow-next-button {
+      height: 11px;
+      width: 11px;
+      top: -5px;
+      transform: rotate(-45deg) scale(1, 1); }
+    /* line 1138, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .left-arrow:hover #left-prev-button,
+    #portfolio-modal .modal-footer .right-arrow:hover #left-prev-button {
+      right: 83%; }
+    /* line 1141, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .left-arrow:hover #right-prev-button,
+    #portfolio-modal .modal-footer .right-arrow:hover #right-prev-button {
+      right: 20%; }
+    /* line 1144, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .left-arrow:hover #arrow-prev-button,
+    #portfolio-modal .modal-footer .right-arrow:hover #arrow-prev-button {
+      height: 11px;
+      width: 11px;
+      top: -5px;
+      transform: rotate(45deg) scale(1, 1); }
+  /* line 1153, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-modal .modal-footer #next-brand,
+  #portfolio-modal .modal-footer #prev-brand {
+    font-size: 12px;
+    font-family: "Georgia", sans-serif;
+    color: #352B0F;
+    line-height: 44px;
+    margin-top: 10px; }
+  /* line 1160, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-modal .modal-footer .next-button {
+    position: relative; }
+    /* line 1162, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .next-button #left-next-button {
+      transition: all 0.4s ease;
+      border-bottom: 1px solid #979797;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 30%; }
+    /* line 1171, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .next-button #right-next-button {
+      transition: all 0.65s ease;
+      -webkit-transition-delay: 0.1s;
+      /* Safari */
+      transition-delay: 0.1s;
+      border-bottom: 1px solid #979797;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      left: 70%; }
+    /* line 1183, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .next-button #arrow-next-button {
+      transition: all 0.6s ease-in-out;
+      -webkit-transition-delay: 0.1s;
+      /* Safari */
+      transition-delay: 0.1s;
+      border-bottom: 1px solid #979797;
+      border-right: 1px solid #979797;
+      display: block;
+      position: absolute;
+      right: 0;
+      transform: rotate(-45deg) scale(0, 0); }
+  /* line 1196, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-modal .modal-footer .prev-button {
+    position: relative; }
+    /* line 1198, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .prev-button #left-prev-button {
+      transition: all 0.4s ease;
+      border-bottom: 1px solid #979797;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 70%; }
+    /* line 1207, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .prev-button #right-prev-button {
+      transition: all 0.65s ease;
+      -webkit-transition-delay: 0.1s;
+      /* Safari */
+      transition-delay: 0.1s;
+      border-bottom: 1px solid #979797;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      left: 30%; }
+    /* line 1219, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .modal-footer .prev-button #arrow-prev-button {
+      transition: all 0.6s ease-in-out;
+      -webkit-transition-delay: 0.1s;
+      /* Safari */
+      transition-delay: 0.1s;
+      border-bottom: 1px solid #979797;
+      border-left: 1px solid #979797;
+      display: block;
+      position: absolute;
+      left: 0;
+      transform: rotate(45deg) scale(0, 0); }
+
+/* line 1234, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#portfolio-modal .right-portfolio-modal,
+#portfolio-modal .left-portfolio-modal {
+  max-width: 320px;
+  margin: auto;
+  width: 100%;
+  position: relative;
+  padding-bottom: 30px;
+  padding-top: 30px; }
+
+/* line 1242, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#portfolio-modal .left-portfolio-modal {
+  text-align: center; }
+  /* line 1244, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-modal .left-portfolio-modal .left-img-portfolio {
+    padding-bottom: 30px; }
+  /* line 1247, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-modal .left-portfolio-modal .title-brand {
+    font-family: "GeorgiaBold", sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    color: #352B0F;
+    padding-bottom: 30px; }
+  /* line 1254, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-modal .left-portfolio-modal .block-brand-details {
+    position: relative;
+    text-align: left;
+    margin: auto;
+    width: 65%;
+    font-family: "Georgia", sans-serif;
+    color: #605C50;
+    font-size: 13px;
+    line-height: 22px; }
+    /* line 1263, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .left-portfolio-modal .block-brand-details a {
+      color: #918B7C;
+      opacity: 0.59; }
+      /* line 1266, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+      #portfolio-modal .left-portfolio-modal .block-brand-details a:hover {
+        color: #C8A545;
+        opacity: 1; }
+    /* line 1271, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+    #portfolio-modal .left-portfolio-modal .block-brand-details span {
+      font-weight: bold; }
+
+/* line 1276, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+#portfolio-modal .right-portfolio-modal {
+  text-align: left; }
+  /* line 1278, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-modal .right-portfolio-modal .title-right-portfolio {
+    color: #352B0F;
+    font-size: 16px;
+    font-family: "GeorgiaBold", sans-serif;
+    line-height: 19px;
+    padding-bottom: 20px; }
+  /* line 1285, F:/Mega/Work/Project/www/maestro/public/frontend/css/styles.scss */
+  #portfolio-modal .right-portfolio-modal .content-right-portfolio {
+    font-family: "Georgia", sans-serif;
+    line-height: 22px;
+    color: #605C50;
+    text-align: justify;
+    font-size: 13px; }
+
+/*# sourceMappingURL=styles.css.map */

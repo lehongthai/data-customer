@@ -1,0 +1,242 @@
+$gobo: 'GothamBold';
+$gome: 'GothamMedium';
+$goli: 'GothamLight';
+$gobo: 'Lato';
+$gome: 'Lato';
+$goli: 'Lato';
+
+$dibo: 'DidotBold';
+$dime: 'Didot';
+$diita: 'DidotItalic';
+
+$dibo: 'Judson';
+$dime: 'Judson';
+$diita: 'Judson';
+
+
+$geita: 'GeorgiaItalic';
+$geme: 'Georgia';
+$gebo: 'GeorgiaBold';
+$geboita: 'GeorgiaBoldItalic';
+$yellow: #C8A545;
+$black: #352B0F;
+
+body{
+	font-family: $geme;
+    line-height: normal;
+    font-size: 14px;
+    color: #605C50;
+    -webkit-font-smoothing: antialiased;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: #605C50;
+	display: inline-block;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+a:hover, a:focus {
+	color: #C8A545;
+    background: none;
+    background-color: transparent;
+    outline:none;
+}
+h1, h2, h3, h4, h5{
+	margin: 0;
+}
+input{
+    font-family: 'Open Sans', sans-serif;
+}
+input:focus{
+	outline: none;
+}
+input::-webkit-input-placeholder {
+  color: #ddd;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color:  #ddd;
+}
+input:-ms-input-placeholder {
+  color:  #ddd;
+}
+ul {
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+img{
+	max-width: 100%;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+    background-color: transparent;
+    outline:none;
+}
+//.carousel-cell {
+//	width: 100%; /* half-width */
+//	margin-right: 10px;
+//	border-radius: 0;
+//	counter-increment: gallery-cell;
+//}
+.flickity-page-dots{
+	display: none;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.ori-image{
+	position: relative;
+	width: 100%;
+	display: block;
+	img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+.title{
+	font-family: $dibo;
+	font-size: 34px;
+	color: #000000;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.subtitle{
+	font-family: $gome;
+    font-weight: 400;
+	font-size: 18px;
+	color: #666666;
+	text-transform: uppercase;
+    line-height: 1.4;
+}
+.des{
+	font-size: 14px;
+	color: #666666;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.btn1{
+	font-family: $gome;
+    font-weight: 400;
+	color: #1d1d1d;
+	border: 1px solid #000;
+	font-size: 14px;
+	padding: 15px 25px;
+    text-align: center;
+	text-transform: uppercase;
+	&:hover{
+		border-color: #ec8987;
+	}
+}
+.btn2{
+	background: #ec8987;
+	color: #fff;
+	border: 1px solid #ec8987;
+	&:hover{
+		background: transparent;
+		color: #ec8987;
+	}
+}
+.ori-checkbox{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #000000;
+	text-transform: uppercase;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: block;
+    input{
+        display: none;
+    }
+    .icon{
+        border-radius: 50%;
+        border: 2px solid #ebebeb;
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        padding: 3px;
+        vertical-align: middle;
+        margin-right: 5px;
+        span{
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            display: block;
+            background: transparent;
+        }
+    }
+    .info{
+        vertical-align: middle;
+    }
+    input:checked + .icon span{
+       background: #e8a9a0;
+    }
+}
+.ori-input{
+    background: #fff;
+    font-size: 15px;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+}
+.nice-select{
+    padding: 10px 25px;
+    height: 61px;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    ul.list{
+        width: 100%;
+        border-radius: 0;
+    }
+    &:after, &.open:after{
+        border: 0;
+        width: auto;
+        height: auto;
+        position: absolute;
+        content: url('../images/down.png');
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        right: 30px;
+        margin-top: 3px;
+    }
+}
+
+.container {
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    @media(max-width:767px){
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+.row{
+    
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+    margin-left: 0;
+    margin-right: 0;
+}
+.fixed-overlay{
+    background: #fff;
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}

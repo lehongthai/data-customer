@@ -1,0 +1,71 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+
+@font-face {
+    font-family: 'Didot';
+    src: url('fonts/Didot.eot');
+    src: url('fonts/Didot.eot') format('embedded-opentype'),
+         url('fonts/Didot.woff2') format('woff2'),
+         url('fonts/Didot.woff') format('woff'),
+         url('fonts/Didot.ttf') format('truetype'),
+         url('fonts/Didot.svg#Didot') format('svg');
+}
+
+@font-face {
+    font-family: 'DidotBold';
+    src: url('fonts/DidotBold.eot');
+    src: url('fonts/DidotBold.eot') format('embedded-opentype'),
+         url('fonts/DidotBold.woff2') format('woff2'),
+         url('fonts/DidotBold.woff') format('woff'),
+         url('fonts/DidotBold.ttf') format('truetype'),
+         url('fonts/DidotBold.svg#DidotBold') format('svg');
+}
+
+@font-face {
+    font-family: 'DidotItalic';
+    src: url('fonts/DidotItalic.eot');
+    src: url('fonts/DidotItalic.eot') format('embedded-opentype'),
+         url('fonts/DidotItalic.woff2') format('woff2'),
+         url('fonts/DidotItalic.woff') format('woff'),
+         url('fonts/DidotItalic.ttf') format('truetype'),
+         url('fonts/DidotItalic.svg#DidotItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('fonts/Georgia.eot');
+    src: url('fonts/Georgia.eot') format('embedded-opentype'),
+         url('fonts/Georgia.woff2') format('woff2'),
+         url('fonts/Georgia.woff') format('woff'),
+         url('fonts/Georgia.ttf') format('truetype'),
+         url('fonts/Georgia.svg#Georgia') format('svg');
+}
+
+@font-face {
+    font-family: 'GeorgiaItalic';
+    src: url('fonts/GeorgiaItalic.eot');
+    src: url('fonts/GeorgiaItalic.eot') format('embedded-opentype'),
+         url('fonts/GeorgiaItalic.woff2') format('woff2'),
+         url('fonts/GeorgiaItalic.woff') format('woff'),
+         url('fonts/GeorgiaItalic.ttf') format('truetype'),
+         url('fonts/GeorgiaItalic.svg#GeorgiaItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'GeorgiaBold';
+    src: url('fonts/GeorgiaBold.eot');
+    src: url('fonts/GeorgiaBold.eot') format('embedded-opentype'),
+         url('fonts/GeorgiaBold.woff2') format('woff2'),
+         url('fonts/GeorgiaBold.woff') format('woff'),
+         url('fonts/GeorgiaBold.ttf') format('truetype'),
+         url('fonts/GeorgiaBold.svg#GeorgiaBold') format('svg');
+}
+
+@font-face {
+    font-family: 'GeorgiaBoldItalic';
+    src: url('fonts/GeorgiaBoldItalic.eot');
+    src: url('fonts/GeorgiaBoldItalic.eot') format('embedded-opentype'),
+         url('fonts/GeorgiaBoldItalic.woff2') format('woff2'),
+         url('fonts/GeorgiaBoldItalic.woff') format('woff'),
+         url('fonts/GeorgiaBoldItalic.ttf') format('truetype'),
+         url('fonts/GeorgiaBoldItalic.svg#GeorgiaBoldItalic') format('svg');
+}

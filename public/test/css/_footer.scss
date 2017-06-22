@@ -1,0 +1,22 @@
+footer{
+    border-top: 1px solid #D4D4D4;
+    padding: 20px 0;
+    color: #605C50;
+    font-size: 12px;
+    letter-spacing: 0.128em;
+    line-height: 14px;
+    p{
+        margin-bottom: 0; 
+    }
+    ul{
+        li{
+            display: inline-block;
+            padding: 0 15px;
+            border-right: 1px solid #605C50;
+            &:last-child{
+                border-right: 0;
+                padding-right: 0;
+            }
+        }
+    }
+}
